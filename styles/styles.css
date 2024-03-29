@@ -13,13 +13,15 @@ body{
     display: flex;
 }
 
-aside>div, header, main, footer, menu, main>div{
+aside>div, header, main, footer, menu, main>div, .show-section{
     display: flex;
     flex-direction: column;
 }
 
 aside{
     position: relative;
+    overflow: hidden;
+    min-width: 250px;
 }
 
 aside>p{
@@ -31,7 +33,7 @@ aside>p{
 
 aside>div{
     height: 100%;
-    background-color: rgb(80, 80, 110);
+    background-color: rgb(111, 139, 78);
     color: white;
     gap: 4vh;
 }
@@ -43,7 +45,7 @@ header{
 }
 
 figure{
-    width: 150px;
+    width: 100px;
 }
 
 figure>img{
@@ -66,14 +68,17 @@ menu{
     cursor: pointer;
 }
 
-section{
-    background-color: yellow;
+body > section{
+    background-color: rgb(238, 248, 215);
     overflow-y: auto;
     max-width: 100%;
+    display: none;
 }
 
 aside>div, section{
     padding: 3vh 3vw;
 }
   
-
+.show-section{
+    display: block;
+}
