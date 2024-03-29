@@ -5,7 +5,7 @@ CV made with JavaScript vanilla, Sass, Html5
 ## Google fonts
 
 ### Roboto: CSS classes
-
+```css
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -77,9 +77,10 @@ CV made with JavaScript vanilla, Sass, Html5
   font-weight: 900;
   font-style: italic;
 }
+```
 
 ### Quattrocento: CSS classes
-
+```css
 .quattrocento-regular {
   font-family: "Quattrocento", serif;
   font-weight: 400;
@@ -91,9 +92,9 @@ CV made with JavaScript vanilla, Sass, Html5
   font-weight: 700;
   font-style: normal;
 }
-
+```
 ### Dosis: CSS class for a variable style
-
+```css
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 200 to 800
 
@@ -103,9 +104,9 @@ CV made with JavaScript vanilla, Sass, Html5
   font-weight: <weight>;
   font-style: normal;
 }
-
+```
 ### Comfortaa: CSS class for a variable style
-
+```css
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 700
 
@@ -115,4 +116,4 @@ CV made with JavaScript vanilla, Sass, Html5
   font-weight: <weight>;
   font-style: normal;
 }
-
+```
