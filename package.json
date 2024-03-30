@@ -1,0 +1,12 @@
+{
+  "name": "webcv",
+  "version": "1.0.0",
+  "description": "CV made with JavaScript vanilla, Sass, Html5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", "sass-watch": "sass --watch ./styles/styles.scss:styles.css"
+  },
+  "keywords": [],
+  "author": "Marta Talavera Gil",
+  "license": "ISC"
+}

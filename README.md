@@ -1,6 +1,18 @@
 # webcv
 
 CV made with JavaScript vanilla, Sass, Html5
+## Using Sass
+This project is using Sass, so you have to install the dependencies
+
+```
+npm install
+```
+
+To watch saas changes use the following command
+
+```
+nmp run sass-watch
+```
 
 ## Google fonts
 

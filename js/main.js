@@ -46,3 +46,10 @@ function clearSections(){
         section.classList.remove("show-section")
     });
 }
+function addBackgroundToSections() {
+    const sections=document.querySelectorAll(".show-section")
+    sections.forEach(section => {
+        section.classList.add("bg-section-shape")
+    });
+}
+addBackgroundToSections()
